@@ -1,4 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
 * {
   text-align: center;
 }
+
+body {
+  background: linear-gradient(180deg, turquoise, blue);
+  width: 100%;
+  font-weight: bold;
+/*   background-color: rgba(255, 255, 255, 0.4); */
+}
+
+/* #background {
+  background-size: cover;
+  background-color: #e8e8e8;
+  opacity: 0.5;
+} */
+
+h1 {
+  text-decoration: underline; 
+  text-align: center;
+  font-family: Oswald;
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: Oswald;
+  text-align: center;
+}
+
+h3 {
+  font-family: Oswald;
+  font-size: 50px;
+}
+
  
+form {
+  font-family: Oswald;
+  font-size: 40px;
+  color: #000;
+  text-align: left;
+  padding-left: 25%;
+}
+
+.button-div {
+  text-align: center; 
+  
+}
+
+.awk-submit {
+  width: 150px;
+  margin-left: -34%;
+}
+
+input[type=submit] {
+  padding: 20px 30px;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Oswald;
+}
+
+input[type=submit]:hover {
+  background: #fff;
+}
+
+a {
+  color: #000;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 30px;
+  text-decoration: none;
+  paddding: 2px 6px 3px;
+  border-radius: 2px;
+	border: 7px solid #b7b7b7;
+	background-color: #ededed;
+	height: 100px;
+	width: 160px;
+}
+
+a:hover {
+  border-color: #000;
+}
+
+footer {
+  text-align: center;
+  font-family: Oswald;
+  font-size: 20px;
+  padding-top: 10%;
+}
+
+#awk {
+  font-size: 40px;
+}
+

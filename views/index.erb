@@ -3,25 +3,50 @@
  <head>
   <meta charset="UTF-8">
   <title>AWKWARD</title>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
  </head>
  <body>
-   <h1> AWKWARD!! </h1>
+   <h1> Everything is Awkward </h1>
    <br>
    <h2> How to make your awkward situation even more awkward! </h2>
    <br>
-   <img src="https://media0.giphy.com/media/SwefghwWAJrz2/200.gif" >
+     <img src="https://media0.giphy.com/media/SwefghwWAJrz2/200.gif" >
    <br>
-   <h3> What's the situation? </h3>
-     <form>
-      <input type="radio" name="situation" value="sit1" checked> Someone said something offensive...
+   <h3> How awkward is your situation?</h3>
+     <form method="POST" action="/results">
+      <input type="radio" name="severity" value="sev1"> DEATHLY AWKWARD
       <br> <br>
-      <input type="radio" name="situation" value="sit2"> Someone brought up an ex and you're on a date..
+      <input type="radio" name="severity" value="sev2"> Pretty awkward
+       <br> <br>
+       <input type="radio" name="severity" value="sev3"> meh
+   <br>
+   <h3 style="padding-right: 37%" > What's your situation? </h3>
+      <input type="radio" name="situation" value="sit1"> Someone said something offensive...
+      <br> <br>
+      <input type="radio" name="situation" value="sit2"> Someone brought up an ex and you're on a date...
        <br> <br>
        <input type="radio" name="situation" value="sit3"> You got into the wrong car...
+       <br> <br> 
+       <input type="radio" name="situation" value="sit4"> You farted loudly in class and everyone knows it was you...
+       <br> <br> 
+       <input type="radio" name="situation" value="sit5"> You scored on the wrong goal in a soccer game...
+       <br> <br> 
+       <input type="radio" name="situation" value="sit6"> Someone just told you they love you and you don't feel the same way...
+       <br> <br> 
+       <input type="radio" name="situation" value="sit7"> You catch two people kissing and they both have significant others...
+       <br> <br> 
+       <input type="radio" name="situation" value="sit8"> You're at a stranger's house and you clog their toilet...
        <br> <br> <br>
-       <input type= "submit" value= "Submit" >
+       <div class="button-div">
+         <input type= "submit" value= "Submit" class="awk-submit">
+       </div>
      </form>
-   
+      <footer>
+        <p>Brian, Izzy, Paige, Tenzin
+         <br>
+         Flatiron 2015
+         <br>
+         Learn Love Code.</p>
+      </footer> 
  </body>
 </html>

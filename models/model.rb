@@ -1,10 +1,88 @@
-def awkward_statements
+def awkward_statements(situation, severity)
+
+  awkward_hash={}
   
-  if sit1
-    "Say "abfksdfjf.""
-  elsif sit2
-    "Say "sojkss.""
-  else sit3
-    "Say "kksdjf.""
+  if situation =="sit1" && severity == "sev1"
+    awkward_hash[:awk]="Say 'You're a racist!!!'" 
+    awkward_hash[:gif]="https://media3.giphy.com/media/aBooMpl2faiHK/200.gif"
+  elsif situation=="sit2" && severity== "sev1"
+    awkward_hash[:awk]="Have a tear dribble down your face."
+    awkward_hash[:gif]="https://media0.giphy.com/media/JPHUCiioastGw/200.gif"
+  elsif situation=="sit3" && severity== "sev1"
+    awkward_hash[:awk]="Say in a very weird high pitched voice 'You're not my mother!'"
+    awkward_hash[:gif]="http://cdn2.gurl.com/wp-content/uploads/2013/04/tumblr_lmx0f3j4GM1qbub2i.gif"
+  elsif situation=="sit4" && severity== "sev1"
+    awkward_hash[:awk]="Fart again."
+    awkward_hash[:gif]="https://media3.giphy.com/media/JFBEnCJKuOPGU/200.gif"
+  elsif situation=="sit5" && severity== "sev1"
+    awkward_hash[:awk]="Cheer really loudly for the other team!"
+    awkward_hash[:gif]="https://media3.giphy.com/media/mhicJGJVAg48w/200.gif"
+  elsif situation=="sit6" && severity== "sev1"
+    awkward_hash[:awk]="Say 'Awesome.'"
+    awkward_hash[:gif]="https://media2.giphy.com/media/d6Ni9aqSatPfq/200.gif"
+  elsif situation=="sit7" && severity== "sev1"
+    awkward_hash[:awk]="Ask if you can join in!"
+    awkward_hash[:gif]="https://media0.giphy.com/media/1NkbwrhSTxDsQ/200.gif"
+  elsif situation=="sit8" && severity== "sev1"
+    awkward_hash[:awk]="Make it overflow."
+    awkward_hash[:gif]="https://media2.giphy.com/media/55jOq5LijPX2/200.gif"
+    
+    
+  elsif situation=="sit1" && severity== "sev2"
+    awkward_hash[:awk]="Punch them in the shin."
+    awkward_hash[:gif]="http://i.imgur.com/lofr1.gif"
+  elsif situation=="sit2" && severity== "sev2"
+    awkward_hash[:awk]="Say 'They look prettier sleeping than you do.'"
+    awkward_hash[:gif]="http://stream1.gifsoup.com/view4/3805254/donald-glover-awkward-o.gif"
+  elsif situation=="sit3" && severity== "sev2"
+   awkward_hash[:awk]= "Let out a really long, drawn out fart."
+    awkward_hash[:gif]="http://media.giphy.com/media/GA89JfpXiTrwc/giphy.gif"
+    elsif situation=="sit4" && severity== "sev2"
+    awkward_hash[:awk]= "You stand up and point a finger at someone and sit down."
+    awkward_hash[:gif]="https://media2.giphy.com/media/VS16d5K4AxsEE/200.gif"
+    elsif situation=="sit5" && severity== "sev2"
+    awkward_hash[:awk]= "Start screaming at the ref."
+    awkward_hash[:gif]="https://media3.giphy.com/media/E0WUTM0utQo0M/200.gif"
+    elsif situation=="sit6" && severity== "sev2"
+    awkward_hash[:awk]= "Mention you can put your fist in your mouth with extreme seriousness."
+    awkward_hash[:gif]="https://media4.giphy.com/media/ocAGFVf6eO3FS/200.gif"
+    elsif situation=="sit7" && severity== "sev2"
+    awkward_hash[:awk]= "Bring up their significant others."
+    awkward_hash[:gif]="https://media3.giphy.com/media/8MSMBlYTG22Iw/200.gif"
+    elsif situation=="sit8" && severity== "sev2"
+    awkward_hash[:awk]= "You ask the hottest person there to help you unclog it."
+    awkward_hash[:gif]="https://media4.giphy.com/media/8Eyzbv7ErgvcI/200.gif"
+    
+    
+  elsif situation=="sit1" && severity== "sev3"
+    awkward_hash[:awk]="Whisper 'Sweet nothings' in their ear."
+    awkward_hash[:gif]="http://4.bp.blogspot.com/-_Zi5Q7C_NyU/URxXgWYALHI/AAAAAAAAHgM/RbTXV5QmuO0/s640/AWKWARD.gif"
+  elsif situation=="sit2" && severity== "sev3"
+    awkward_hash[:awk]="Say 'They were a really good kisser!"
+    awkward_hash[:gif]="http://38.media.tumblr.com/tumblr_lmwssyNbxb1qhppjq.gif"
+  elsif situation=="sit3" && severity== "sev3"
+    awkward_hash[:awk]="Start tickling the driver."
+    awkward_hash[:gif]="http://i626.photobucket.com/albums/tt348/nickjonasgifs/JONAS/awkward.gif"
+  elsif situation=="sit4" && severity== "sev3"
+    awkward_hash[:awk]="Make creepy faces at everyone in your class."
+    awkward_hash[:gif]="https://media4.giphy.com/media/17WOXA5TJMQXS/200.gif"
+  elsif situation=="sit5" && severity== "sev3"
+    awkward_hash[:awk]="Go up to your team and pretend nothing happened."
+    awkward_hash[:gif]="https://media1.giphy.com/media/hk4QaARNb5Vmw/200.gif"
+  elsif situation=="sit6" && severity== "sev3"
+    awkward_hash[:awk]="Tell them you have a very iritable bowel."
+    awkward_hash[:gif]="https://media1.giphy.com/media/DmwWyScYqhVmM/200.gif"
+  elsif situation=="sit7" && severity== "sev3"
+    awkward_hash[:awk]="Bring up their parents."
+    awkward_hash[:gif]="https://media4.giphy.com/media/HXEysVjgVdGAU/200.gif"
+  elsif situation=="sit8" && severity== "sev3"
+    awkward_hash[:awk]="Describe your defecation in great detail to the owner of the house."
+    awkward_hash[:gif]="https://media4.giphy.com/media/JQLyaCxTK1zOw/200.gif"
+    
+  else 
+    awkward_hash[:awk]="You are so awkward you need to start over!"
+    awkward_hash[:gif]="http://cdn2.gurl.com/wp-content/uploads/2013/04/tumblr_inline_mgv01qbWPt1r5c8sb.gif"
   end
+  return awkward_hash
 end
+
